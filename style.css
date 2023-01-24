@@ -334,7 +334,9 @@ header.sticky{
     text-transform: capitalize;
     color: #111;
 }
-
+.hide{
+    display: none;
+}
 /* Responsive css */
 @media (max-width: 890px) {
     header{
@@ -357,6 +359,9 @@ header.sticky{
     }
 }
 @media (max-width: 750px){
+    .hide{
+        display: block;
+    }
     .navmenu{
         position: absolute;
         top: 100%;
@@ -378,3 +383,4 @@ header.sticky{
         right: 0;
     }
 }
+
